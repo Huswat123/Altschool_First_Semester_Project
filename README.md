@@ -58,6 +58,14 @@ This command creates a copy of the entire repository, including its files, commi
 Any of the following terminals can be used to handle git provided it is already installed on your system; CommandPrompt, Git Bash, VS Code and Git GUI.
 
 # 3.0 How to Run The Code
+1. Open a terminal or command prompt on your computer.
+2. Use the cd command to navigate to the directory where you saved the Python file. 
+3. Run the script using the following command:
+```python expenses.py```
+4. Check the Output:
+The script will execute, and if there are no errors, you should see the output in the terminal.
+
+# Instances
 Here is a script that explains the implementation and demonstrate the functionality of the Expense Tracking System bit by bit using the Expense and ExpenseDatabase classes. to ensure that the code runs  effectively the following instances were created;
 
 # 3.1 Creating an Expense Instances
