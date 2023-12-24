@@ -50,7 +50,7 @@ class ExpenseDatabase:
         return [expense.to_dict() for expense in self.expenses]
 
 
-# Example
+# Instances
 
 expense_db = ExpenseDatabase()
 
