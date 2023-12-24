@@ -11,7 +11,7 @@ It generates a unique identifier (id) using uuid.uuid4(), sets the title and amo
 and records the creation time in UTC (created_at).
 The updated_at attribute is set initially to the creation time.
 
-# update method: This method allows updating the title and/or amount of the expense.
+update method: This method allows updating the title and/or amount of the expense.
 If title or amount is provided, it updates the corresponding attribute(s).
 It also updates the updated_at timestamp to the current UTC time.
 
