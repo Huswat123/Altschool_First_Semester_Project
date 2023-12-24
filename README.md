@@ -68,23 +68,27 @@ expense2 = Expense("Dinner", 30.0)
 
 expense_db = ExpenseDatabase()
 
-# 3.3 Adding Expenses to the Databade
+# 3.3 Adding Expenses to the Database
 
 expense_db.add_expense(expense1)
 expense_db.add_expense(expense2)
+
 This part of the code add expense to the database
 # 3.4  Updating an Expense
 expense1.update(amount=60.0)
+
 This part of the code update expense1. this shows that the code runs effectively
 # 3.5 Removing An Expemse
 expense_db.remove_expense(expense2.id)
+
 This part of the code remove  expense2 from tghe database
 # 3.6 Fetching and Expense By Title
 # 3.7 Converting an ExpenseDatabase to Dictionary
 for expense in expense_db.expenses:
     print(expense.to_dict())
 
-  Note: The to_dict method is likely designed to convert the ExpenseDatabase contents into a dict of dictionaries for easy representation or serialization.
+ # Note
+  The to_dict method is likely designed to convert the ExpenseDatabase contents into a dict of dictionaries for easy representation or serialization.
 
 Overall, the code provides a basic illustration of the functionalities of expense tracking system using the defined classes. the 
 
