@@ -58,7 +58,7 @@ This command creates a copy of the entire repository, including its files, commi
 Any of the following terminals can be used to handle git provided it is already installed on your system; CommandPrompt, Git Bash, VS Code and Git GUI.
 
 # 3.0 How to Run The Code
-Here is a script that explains the implementation and demonstrate the functionality of the Expense Tracking System using the Expense and ExpenseDatabase classes.
+Here is a script that explains the implementation and demonstrate the functionality of the Expense Tracking System bit by bit using the Expense and ExpenseDatabase classes. to ensure that the code runs  effectively the following instances were created;
 
 # 3.1 Creating an Expense Instances
 
@@ -79,14 +79,14 @@ This part of the code add expense to the database
 # 3.4  Updating an Expense
 ```expense1.update(amount=60.0)```
 
-This part of the code update expense1. this shows that the code runs effectively
+This part of the code update expense1 by changing the amount from 50.0 to 60.0
 
 # 3.5 Removing An Expemse
 ```expense_db.remove_expense(expense2.id)```
 
 This part of the code remove  expense2 from tghe database
-# 3.6 Fetching and Expense By Title
-# 3.7 Converting an ExpenseDatabase to Dictionary
+
+# 3.6 Converting an ExpenseDatabase to Dictionary
 ```for expense in expense_db.expenses:```
     ```print(expense.to_dict())```
 
