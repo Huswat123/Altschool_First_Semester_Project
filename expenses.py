@@ -72,19 +72,19 @@ class ExpenseDatabase:
 
 expense_db = ExpenseDatabase()
 
-# This part of the code add expense to the database
+"""This part of the code add expense to the database. This shows that the code runs effectively"""
 expense1 = Expense("Groceries", 50.0)
 expense2 = Expense("Dinner", 30.0)
 expense_db.add_expense(expense1)
 expense_db.add_expense(expense2)
 
-# This part of the code update expense1. this shows that the code runs effectively
+"""This part of the code update expense1""" 
 expense1.update(amount=60.0)
 
 for expense in expense_db.expenses:
     print(expense.to_dict())
 
-#this part of the code remove  expense2 from tghe database
+"""This part of the code remove  expense2 from the database"""
 expense_db.remove_expense(expense2.id)
 
 for expense in expense_db.expenses:
