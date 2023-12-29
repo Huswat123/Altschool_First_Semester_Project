@@ -101,5 +101,5 @@ This part of the code remove  expense2 from tghe database
  # Note
   The to_dict method is likely designed to convert the ExpenseDatabase contents into a dict of dictionaries for easy representation or serialization.
 
-Overall, the code provides a basic illustration of the functionalities of expense tracking system using the defined classes. the 
+Overall, the code provides a basic illustration of the functionalities of expense tracking system using the defined classes.  
 
